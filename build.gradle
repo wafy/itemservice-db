@@ -28,6 +28,9 @@ dependencies {
 	//h2 databse 추가
 	runtimeOnly 'com.h2database:h2'
 
+	//myBatis 추가
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2'
+
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
